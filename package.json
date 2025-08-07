@@ -4,12 +4,12 @@
   "description": "Backend para el sistema SISPLAN migrado desde C# a Node.js",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",                  //  Producción
-    "dev": "nodemon app.js",                 //  Desarrollo con recarga automática
-    "lint": "eslint .",                      // Revisión de estilo de código
-    "format": "prettier --write .",          //  Formateo automático
-    "test": "echo \"No hay tests definidos aún\" && exit 0", //  Placeholder
-    "debug": "node --inspect app.js"         //  Debug con Chrome DevTools
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"No hay tests definidos aún\" && exit 0",
+    "debug": "node --inspect app.js"
   },
   "keywords": ["express", "mysql", "backend", "sisplan"],
   "author": "El",
